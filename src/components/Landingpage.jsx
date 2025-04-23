@@ -174,24 +174,20 @@ const Landingpage = () => {
         <div className=" pb-2 pt-2 font-bold border-2 bg-slate-200 ml-8 mr-8 mt-10 mb-5 flex rounded-md justify-between pr-8 pl-8 ">
           <img
             onClick={handlecountless}
-            src="/public/images/icon-minus.svg"
+            src="/images/icon-minus.svg"
             className=" w-5 h-4  pt-2 "
             alt=""
           />
           {count}
           <img
             onClick={handlecountadd}
-            src="/public/images/icon-plus.svg"
+            src="/images/icon-plus.svg"
             className=" w-4 h-5 pt-1"
             alt=""
           />
         </div>
         <div className=" border-2 flex bg-orange-600 justify-center gap-4 pt-3 pb-3 ml-8 mr-8  mb-3 border-orange-600 rounded-md">
-          <img
-            className=" text-black"
-            src="/public/images/icon-cart.svg"
-            alt=""
-          />
+          <img className=" text-black" src="/images/icon-cart.svg" alt="" />
           <button
             className=" font-bold   "
             disabled={count === 0}
@@ -303,14 +299,14 @@ const Landingpage = () => {
               <div className=" pb-2 pt-2 font-bold border-2 bg-slate-200  mt-11 mb-5 flex rounded-md  pr-11 pl-11  ">
                 <img
                   onClick={handlecountless}
-                  src="/public/images/icon-minus.svg"
+                  src="/images/icon-minus.svg"
                   className=" mr-5 w-5 h-4  pt-2 "
                   alt=""
                 />
                 {count}
                 <img
                   onClick={handlecountadd}
-                  src="/public/images/icon-plus.svg"
+                  src="/images/icon-plus.svg"
                   className=" ml-5 w-4 h-5 pt-1"
                   alt=""
                 />
@@ -319,7 +315,7 @@ const Landingpage = () => {
               <div className=" items-center mt-11 mb-6 border-2 flex bg-orange-600  gap-4  border-orange-600 rounded-md pr-11 pl-11">
                 <img
                   className=" text-black w-3 h-3"
-                  src="/public/images/icon-cart.svg"
+                  src="/images/icon-cart.svg"
                   alt=""
                 />
                 <button
