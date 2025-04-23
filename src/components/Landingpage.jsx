@@ -140,13 +140,13 @@ const Landingpage = () => {
         <div className=" flex justify-between -mt-52 ml-2 mr-2 group  ">
           <img
             onClick={handleprev}
-            src="/public/images/icon-previous.svg"
+            src="/images/icon-previous.svg"
             alt="prev icon"
             className=" w-9 h-9 rounded-full bg-white border-white  border-2 p-2 "
           />
           <img
             onClick={handlenext}
-            src="/public/images/icon-next.svg"
+            src="/images/icon-next.svg"
             alt="next icon"
             className="  w-9 h-9 rounded-full bg-white border-white  border-2 p-2 "
           />
